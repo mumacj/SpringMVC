@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>登陆</h1>
-    <form action="" method="post">
+    <form action="${pageContext.request.contextPath}/user/login" method="post">
         用户名：<input type="text" name="username">
         密码：<input type="password" name="password">
         <input type="submit" value="提交">

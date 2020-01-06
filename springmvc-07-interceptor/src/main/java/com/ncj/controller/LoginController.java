@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
 
+@RequestMapping("user")
 @Controller
 public class LoginController {
 
@@ -17,6 +18,7 @@ public class LoginController {
     public String goLogin(){
         return"login";
     }
+
     @RequestMapping("/login")
     public String login(String username, String password, HttpSession session){
 

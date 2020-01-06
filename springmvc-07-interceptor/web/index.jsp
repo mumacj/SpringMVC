@@ -11,7 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <h1><a href="${pageContext.request.contextPath}/login">登陆页面</a></h1>
+  <h1><a href="${pageContext.request.contextPath}/user/goLogin">登陆页面</a></h1>
 
   </body>
 </html>
